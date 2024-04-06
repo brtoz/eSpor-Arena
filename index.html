@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eSpor Arena</title>
+
+  <link rel="shortcut icon" href="./images/logo.png" type="image">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preload" as="image" href="./images/hero-banner.png">
+  <link rel="preload" as="image" href="./images/hero-banner-bg.png">
+
+</head>
+
+<body id="top">
+
+  <header class="header active" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./images/logo.png" width="110" height="53" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>ANASAYFA</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#tournament" class="navbar-link" data-nav-link>TURNUVALAR</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#news" class="navbar-link" data-nav-link>HABERLER</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>İLETİŞİM</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="#" class="btn" data-btn>Bize Katıl</a>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <div class="hero has-before" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">Maçların Keyfini Çıkar</p>
+
+          <h1 class="h1 title hero-title">Gerçek Oyuncuların Arenası!</h1>
+
+          <a href="#" class="btn" data-btn>İzlemeye Başla</a>
+
+          <div class="hero-banner">
+            <img src="./images/hero-banner.png" width="850" height="414" alt="hero banner" class="w-100">
+
+            <img src="./images/hero-banner-bg.png" alt="" class="hero-banner-bg">
+          </div>
+
+        </div>
+      </div>
+
+      <section class="section upcoming" aria-labelledby="upcoming-label" id="tournament">
+        <div class="container">
+
+          <p class="section-subtitle" id="upcoming-label" data-reveal="bottom">
+            Yaklaşan Turnuvalar
+          </p>
+
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Hazır Mısın ?<br>Efsanelerin <span class="span">Turnuvası</span>
+          </h2>
+
+          <p class="section-text" data-reveal="bottom">
+            Yaklaşan turnuvalarla dolu heyecan verici atmosferimiz, zaferin sadece
+            başlangıcı olacak.
+          </p>
+
+          <ol class="upcoming-list">
+
+            <li class="upcoming-item">
+
+              <div class="upcoming-card left has-before" data-reveal="left">
+
+                <img src="./images/team-logo-1.png" width="80" height="80" loading="lazy" alt="Purple Death Cadets"
+                  class="card-banner">
+
+                <h3 class="h3 card-title">Astralis</h3>
+
+                <div class="card-meta">Grup 1 | Çeyrek Final</div>
+
+              </div>
+
+              <div class="upcoming-time" data-reveal="bottom">
+                <time class="time" datetime="12:00">12:00</time>
+
+                <time class="date" datetime="2024-04-15">15 Nisan 2024</time>
+
+                <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <div class="upcoming-card right has-before" data-reveal="right">
+
+                <img src="./images/team-logo-2.png" width="90" height="10" loading="lazy" alt="Trigger Brain Squad"
+                  class="card-banner">
+
+                <h3 class="h3 card-title">eternal fire</h3>
+
+                <div class="card-meta">Grup 1 | Çeyrek Final</div>
+
+              </div>
+
+            </li>
+
+            <li class="upcoming-item">
+
+              <div class="upcoming-card left has-before" data-reveal="left">
+
+                <img src="./images/team-logo-3.png" width="86" height="81" loading="lazy" alt="The Black Hat Hackers"
+                  class="card-banner">
+
+                <h3 class="h3 card-title">Cloud 9</h3>
+
+                <div class="card-meta">Grup 2 | Yarı Final</div>
+
+              </div>
+
+              <div class="upcoming-time" data-reveal="bottom">
+                <time class="time" datetime="13:30">13:30</time>
+
+                <time class="date" datetime="2024-04-16">16 Nisan 2024</time>
+
+                <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <div class="upcoming-card right has-before" data-reveal="right">
+
+                <img src="./images/team-logo-4.png" width="70" height="60" loading="lazy" alt="Your Worst Nightmare"
+                  class="card-banner">
+
+                <h3 class="h3 card-title">Faze</h3>
+
+                <div class="card-meta">Grup 2 | Yarı Final</div>
+
+              </div>
+
+            </li>
+
+            <li class="upcoming-item">
+
+              <div class="upcoming-card left has-before" data-reveal="left">
+
+                <img src="./images/team-logo-5.png" width="86" height="81" loading="lazy" alt="Witches And Quizards"
+                  class="card-banner">
+
+                <h3 class="h3 card-title">Navi</h3>
+
+                <div class="card-meta">Grup 3 | Final</div>
+
+              </div>
+
+              <div class="upcoming-time" data-reveal="bottom">
+                <time class="time" datetime="14:00">14:00</time>
+
+                <time class="date" datetime="2024-04-17">17 Nisan 2024</time>
+
+                <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <div class="upcoming-card right has-before" data-reveal="right">
+
+                <img src="./images/team-logo-6.svg" width="86" height="81" loading="lazy" alt="Resting Bitch Faces"
+                  class="card-banner">
+
+                <h3 class="h3 card-title">G2</h3>
+
+                <div class="card-meta">Grup 3 | Final</div>
+
+              </div>
+
+            </li>
+
+          </ol>
+
+        </div>
+      </section>
+
+      <section class="section news" aria-label="our latest news" id="news">
+        <div class="container">
+
+          <p class="section-subtitle" data-reveal="bottom">Gündem</p>
+
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Güncel<span class="span"> Haberler</span>
+          </h2>
+
+          <p class="section-text" data-reveal="bottom">
+            En son turnuvalar, rekabetler ve güncel haberlerle e-spor dünyasının nabzını tutun! Profesyonel oyuncuların
+            kariyer dönüm noktaları ve daha fazlası için takipte kalın!
+          </p>
+
+          <ul class="news-list">
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="./images/news-1.jpg" width="600" height="400" loading="lazy"
+                    alt="Innovative Business All Over The World." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-tag">E-Spor</a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2024-04-14">14 Nisan 2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Berat</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Eternel Fire Galibiyeti Aldı</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Eternel Fire, beklenmedik bir turnuva zaferi kazandı!
+                  </p>
+
+                  <a href="#" class="link has-before">Devamını Oku</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="./images/news-2.jpg" width="600" height="400" loading="lazy"
+                    alt="How To Start Initiating An Startup In Few Days." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-tag">E-Spor</a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2024-04-15">15 Nisan 2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Berat</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Vitality Galibiyeti Aldı</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Vitality, beklenmedik bir turnuva zaferi kazandı!
+                  </p>
+
+                  <a href="#" class="link has-before">Devamını Oku</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="./images/news-3.jpeg" width="600" height="400" loading="lazy"
+                    alt="Financial Experts Support Help You To Find Out." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-tag">E-Spor</a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2024-04-16">16 Nisan 2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Berat</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Navi Galibiyeti Aldı</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Navi, beklenmedik bir turnuva zaferi kazandı!</p>
+
+                  <a href="#" class="link has-before">Devamını Oku</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./images/logo.png" width="75" height="75" loading="lazy" alt="Unigine logo">
+          </a>
+
+          <p class="footer-text">
+            Zirveye Bir Adım Kala </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Site Haritası</p>
+
+          <ul>
+
+            <li>
+              <a href="#" class="footer-link">Turnuvalar</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Destek</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Gizlilik Politikası</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Kullanım Koşulları</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">İletişim</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Bize Ulaşın</p>
+
+          <div class="contact-item">
+            <span class="span">Konum:</span>
+
+            <address class="contact-link">
+              Isparta/Türkiye
+            </address>
+          </div>
+
+          <div class="contact-item">
+            <span class="span">MAIL:</span>
+
+            <a href="mailto:Info@unigine.com" class="contact-link">beratozfidan@hotmail.com</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="span">Telefon:</span>
+
+            <a href="tel:+12345678910" class="contact-link">+90 (555) 555-5555</a>
+          </div>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Bültene Kayıt Ol<p>
+
+          <form action="./index.html" method="get" class="footer-form">
+            <input type="email" name="email_address" required placeholder="Mail Adresiniz" autocomplete="off"
+              class="input-field">
+
+            <button type="submit" class="btn" data-btn>Abone Ol</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 brtoz Tüm Haklar Saklıdır.
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+  <div class="cursor" data-cursor></div>
+
+  <script src="script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
